@@ -1,0 +1,1 @@
+SELECT DISTINCT(CITY) FROM STATION WHERE CITY REGEXP '[AEIOU]$'; -- $ matches End of string
